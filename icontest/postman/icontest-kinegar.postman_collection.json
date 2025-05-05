@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "1dcefc32-e057-438c-86cb-c097a60bb4b7",
+		"name": "icontest-kinegar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25349106"
+	},
+	"item": [
+		{
+			"name": "getSummary",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": [
+				{
+					"name": "getSummary",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 07:07:14 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"officeName\": \"UID JAYA\",\n        \"roomName\": \"Ruang Borobudur\",\n        \"usagePercentage\": 1.6129032258064515,\n        \"totalConsumption\": 5940000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 102,\n            \"Snack Siang\": 102,\n            \"Makan Siang\": 62\n        }\n    },\n    {\n        \"officeName\": \"UID JAYA\",\n        \"roomName\": \"Ruang Prambanan\",\n        \"usagePercentage\": 1.6129032258064515,\n        \"totalConsumption\": 4200000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 30,\n            \"Snack Siang\": 72,\n            \"Makan Siang\": 72\n        }\n    },\n    {\n        \"officeName\": \"UID JAYA\",\n        \"roomName\": \"Ruang Mendhut\",\n        \"usagePercentage\": 0.6720430107526881,\n        \"totalConsumption\": 1650000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 27,\n            \"Snack Siang\": 15,\n            \"Makan Siang\": 27\n        }\n    },\n    {\n        \"officeName\": \"UID JABAR\",\n        \"roomName\": \"Ruang Rinjani\",\n        \"usagePercentage\": 0.4032258064516129,\n        \"totalConsumption\": 1350000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 27,\n            \"Makan Siang\": 27\n        }\n    },\n    {\n        \"officeName\": \"UID BALI\",\n        \"roomName\": \"Ruang Ganesha\",\n        \"usagePercentage\": 1.6129032258064515,\n        \"totalConsumption\": 3240000,\n        \"consumptionDetail\": {\n            \"Snack Siang\": 81,\n            \"Makan Siang\": 54\n        }\n    },\n    {\n        \"officeName\": \"UID JATENG & DIY\",\n        \"roomName\": \"Ruang Arjuna\",\n        \"usagePercentage\": 0.6720430107526881,\n        \"totalConsumption\": 1750000,\n        \"consumptionDetail\": {\n            \"Snack Siang\": 35,\n            \"Makan Siang\": 35\n        }\n    },\n    {\n        \"officeName\": \"UID JATIM\",\n        \"roomName\": \"Ruang Sudirman\",\n        \"usagePercentage\": 1.3440860215053765,\n        \"totalConsumption\": 2070000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 23,\n            \"Snack Siang\": 46,\n            \"Makan Siang\": 23\n        }\n    },\n    {\n        \"officeName\": \"UID JATIM\",\n        \"roomName\": \"Ruang Fatmawati\",\n        \"usagePercentage\": 1.3440860215053765,\n        \"totalConsumption\": 2350000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 25,\n            \"Snack Siang\": 55,\n            \"Makan Siang\": 25\n        }\n    },\n    {\n        \"officeName\": \"UID JABAR\",\n        \"roomName\": \"Ruang Galunggung\",\n        \"usagePercentage\": 0.9408602150537635,\n        \"totalConsumption\": 1610000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 23,\n            \"Snack Siang\": 23,\n            \"Makan Siang\": 23\n        }\n    },\n    {\n        \"officeName\": \"UID JABAR\",\n        \"roomName\": \"Ruang Semeru\",\n        \"usagePercentage\": 1.2096774193548385,\n        \"totalConsumption\": 1760000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 38,\n            \"Snack Siang\": 20,\n            \"Makan Siang\": 20\n        }\n    },\n    {\n        \"officeName\": \"UID JABAR\",\n        \"roomName\": \"Ruang Bromo\",\n        \"usagePercentage\": 0.9408602150537635,\n        \"totalConsumption\": 1400000,\n        \"consumptionDetail\": {\n            \"Snack Sore\": 20,\n            \"Snack Siang\": 20,\n            \"Makan Siang\": 20\n        }\n    },\n    {\n        \"officeName\": \"officeName 22\",\n        \"roomName\": \"roomName 22\",\n        \"usagePercentage\": 1.3552867383512543,\n        \"totalConsumption\": 0,\n        \"consumptionDetail\": {}\n    },\n    {\n        \"officeName\": \"officeName 23\",\n        \"roomName\": \"roomName 23\",\n        \"usagePercentage\": 2.3678315412186377,\n        \"totalConsumption\": 0,\n        \"consumptionDetail\": {}\n    },\n    {\n        \"officeName\": \"officeName 24\",\n        \"roomName\": \"roomName 24\",\n        \"usagePercentage\": 0.5129928315412186,\n        \"totalConsumption\": 0,\n        \"consumptionDetail\": {}\n    },\n    {\n        \"officeName\": \"officeName 25\",\n        \"roomName\": \"roomName 25\",\n        \"usagePercentage\": 1.8929211469534053,\n        \"totalConsumption\": 0,\n        \"consumptionDetail\": {}\n    }\n]"
+				}
+			]
+		}
+	]
+}
